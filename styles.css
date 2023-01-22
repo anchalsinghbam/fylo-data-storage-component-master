@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: hsl(229, 57%, 11%);
+    overflow: hidden;
+}
+
+h1 {
+    color: hsl(229, 57%, 11%);
+}
+
+h1>span {
+    color: hsl(229, 7%, 55%);
+    font-size: 10px;
+    margin: -1rem 0 2rem 0;
+}
+
+p {
+    color: hsl(243, 100%, 93%);
+    font-size: 13px;
+    margin: 2.5rem 0 0 2.5rem;
+}
+
+p>span {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.p {
+    margin: .5rem 0 0 2.5rem;
+    word-spacing: 20rem;
+    font-weight: 700;
+}
+
+
+.bg {
+    width: 100vw;
+    margin-top: 16.25rem;
+    position: absolute;
+    z-index: -2;
+}
+
+.bgm {
+    display: none;
+}
+
+.fylo {
+    position: absolute;
+    width: 20rem;
+    height: 11.5rem;
+    background-color: hsl(228, 56%, 26%);
+    margin: 10.5rem 0 0 15rem;
+    border-radius: 10px;
+    border-top-right-radius: 5rem;
+}
+
+.GB {
+    position: absolute;
+    width: 30rem;
+    height: 9rem;
+    background-color: hsl(228, 56%, 26%);
+    margin: 13rem 0 0 37rem;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.logo {
+    margin: 3rem 0 0 3rem;
+}
+
+.icons {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.document {
+    background-color: hsl(229, 57%, 11%);
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.folder {
+    background-color: hsl(229, 57%, 11%);
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0 0 1rem;
+    border-radius: 5px;
+}
+
+.storage {
+    width: 25rem;
+    height: 1rem;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 10px;
+    margin: 1rem 0 0 2.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.gradient {
+    width: 20rem;
+    height: 0.8rem;
+    border-radius: 10px;
+    margin-left: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: linear-gradient(to right,
+            hsl(6, 100%, 80%),
+            hsl(335, 100%, 65%));
+}
+
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.empty {
+    background-color: #fff;
+    width: 9rem;
+    height: 4rem;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10.5rem 0 0 55rem;
+}
+
+.trangle {
+    width: 0px;
+    height: 0px;
+    border-top: 40px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 20px solid #fff;
+    margin: 3rem 0 0 7.7rem;
+    position: absolute;
+}
+
+@media screen and (max-width: 500px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    p {
+        font-size: 16.5px;
+        margin: 2.5rem 0 0 1.5rem;
+    }
+
+    .p {
+        margin: .7rem 0 0 1rem;
+        word-spacing: 12rem;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .bgm {
+        width: 25rem;
+        height: 50rem;
+        display: inline;
+        position: absolute;
+        z-index: -2;
+    }
+
+    .fylo {
+        width: 20rem;
+        height: 12rem;
+        margin: 13rem 0 0 2.5rem;
+    }
+
+    .GB {
+        width: 20rem;
+        height: 11rem;
+        margin: 26rem 0 0 2.5rem;
+    }
+
+    .logo {
+        margin: 2.5rem 0 0 2.1rem;
+    }
+
+    .document {
+        margin: 0 0 0 2rem;
+    }
+
+    .storage {
+        width: 18rem;
+        height: 1.2rem;
+        margin: 1rem 0 0 1rem;
+        border-radius: 20px;
+    }
+
+    .gradient {
+        width: 13rem;
+        height: 1rem;
+        border-radius: 20px;
+    }
+
+    .circle {
+        width: 13px;
+        height: 13px;
+    }
+
+    .empty {
+        width: 9rem;
+        height: 4rem;
+        margin: 35rem 0 0 8rem;
+    }
+
+    .trangle {
+        display: none;
+    }
+
+}
